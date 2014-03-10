@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "notification_key": {
+          "type": "string"
+        }
+    }
+}

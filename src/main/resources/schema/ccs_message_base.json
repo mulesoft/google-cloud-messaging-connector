@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "message_id": {
+          "type": "string"
+        },
+        "message_type": {
+          "type": "string",
+          "enum": ["ack", "nack"]
+        },
+        "data": {
+          "$ref": "data.json"
+        }
+    }
+}

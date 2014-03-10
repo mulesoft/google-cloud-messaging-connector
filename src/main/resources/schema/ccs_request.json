@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "extends": {
+      "$ref": "ccs_message_base.json"
+    },
+    "additionalProperties": false,
+    "properties": {
+        "to": {
+          "type": "string"
+        },
+        "delay_while_idle": {
+          "type": "boolean"
+        },
+        "time_to_live": {
+          "type": "integer"
+        }
+    }
+}

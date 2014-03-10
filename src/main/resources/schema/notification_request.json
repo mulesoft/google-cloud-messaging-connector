@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "operation": {
+          "type": "string",
+          "enum": ["create", "add", "remove"]
+        },
+        "notification_key": {
+          "type": "string"
+        },
+        "notification_key_name": {
+          "type": "string"
+        },
+        "registration_ids": {
+          "type": "array",
+          "items" : {
+            "type": "string"
+          }
+        }
+    }
+}

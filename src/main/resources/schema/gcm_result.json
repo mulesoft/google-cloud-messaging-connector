@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "message_id": {
+          "type": "string"
+        },
+        "registration_id": {
+          "type": "string"
+        },
+        "error": {
+          "type": "string"
+        }
+    }
+}

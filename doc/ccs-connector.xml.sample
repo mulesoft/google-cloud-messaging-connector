@@ -1,0 +1,23 @@
+<!-- BEGIN_INCLUDE(ccs:config) -->
+<gcm:config apiKey="AIzaSyD3wK_2NzNmVjOPAIPrAMbAtzY5RLPECk4" projectId="5718816154" />
+<!-- END_INCLUDE(ccs:config) -->
+
+<!-- BEGIN_INCLUDE(ccs:dispatch-message-no-data) -->
+<ccs:dispatch-message registrationId="a-reg-id" />
+<!-- END_INCLUDE(ccs:dispatch-message-no-data) -->
+
+<!-- BEGIN_INCLUDE(ccs:dispatch-message-with-data) -->
+<ccs:dispatch-message registrationId="a-reg-id">
+    <ccs:data>
+        <ccs:datum key="aKey">some data</gcm:datum>
+    </ccs:data>
+</ccs:dispatch-message>
+<!-- END_INCLUDE(ccs:dispatch-message-with-data) -->
+
+<!-- BEGIN_INCLUDE(ccs:acknowledge-message) -->
+<ccs:acknowledge-message registrationId="a-reg-id" messageId="a-msg-id" />
+<!-- END_INCLUDE(ccs:acknowledge-message) -->
+
+<!-- BEGIN_INCLUDE(ccs:receive) -->
+<ccs:receive />
+<!-- END_INCLUDE(ccs:receive) -->

@@ -1,0 +1,36 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "registration_ids": {
+          "type": "array",
+          "items" : {
+            "type": "string"
+          }
+        },
+        "notification_key": {
+          "type": "string"
+        },
+        "notification_key_name": {
+          "type": "string"
+        },
+        "collapse_key": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "data.json"
+        },
+        "delay_while_idle": {
+          "type": "boolean"
+        },
+        "time_to_live": {
+          "type": "integer"
+        },
+        "restricted_package_name": {
+          "type": "string"
+        },
+        "dry_run": {
+          "type": "boolean"
+        }
+    }
+}
